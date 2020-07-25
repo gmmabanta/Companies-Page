@@ -1,0 +1,202 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.664);
+    font-family: 'Montserrat';
+    
+}
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+a:link{
+    color: inherit;
+}
+a:hover{
+    color: #C2983D;
+}
+ul.filters{
+
+    width: 100%;
+    margin: 5%;
+    
+}
+
+ul.filters > li{
+    list-style: none;
+}
+
+ul.filters > li > a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+.card{
+    position: relative;
+    margin-bottom: 50px;
+    color: #000;
+    border-radius: 0;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+
+}
+
+
+
+.card-body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4.title{
+    color: #434e5e;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.sort{
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+}
+ul.sort-alphabetical{
+    width: 100%;
+    margin: 0;
+    
+}
+ul.sort-alphabetical > li{
+    list-style: none;
+}
+ul.sort-alphabetical > li > a{
+    color: #434e5e;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.card:hover .card-overlay{
+    opacity:80%;
+    background-color: #C2983D;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    color:white;
+    background-color: #C2983D;
+    overflow: hidden;
+    padding: 20% 5% 5% 5%;
+
+}
+.card-title{
+    color: #264D59;
+
+}
+
+.my-4{
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin:0;
+}
+
+.companies-title{
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.container{
+    align-items: center;
+    margin: auto;
+    position: flex;
+
+}
+.list-group{
+    position: sticky;
+    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+    align-content: center;
+
+
+}
+#sidebar{
+    align-content: center;
+    color: white;
+    display: flex;
+    width:16%;
+    align-items: flex;
+
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #000;
+    opacity:80%;
+}
+
+.navbar-nav:hover{
+    color: #C2983D;
+}
+
+
+.navbar-inverse .navbar-collapse {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #C2983D;
+}
+
+.navbar-collapse:hover {
+    color: #C2983D;
+}
+
+footer{
+    padding: 5%;
+    background-color: #000;
+    opacity: 50%;
+    color: white;
+}
+
+
+.jumbotron{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/20/13/25/city-731296_960_720.jpg);
+    overflow: hidden;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+
+}
+
+.statement{
+    background-color: black;
+    color: #C2983D;
+    padding: 6%;
+    text-align: center;
+    
+}
+
